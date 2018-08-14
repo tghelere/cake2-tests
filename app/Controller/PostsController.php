@@ -2,7 +2,7 @@
 
 class PostsController extends AppController {
     public $helpers = array ('Html','Form');
-    public $components = array('Session');
+    // public $components = array('Session');
     public $name = 'Posts';
 
     function index() {
